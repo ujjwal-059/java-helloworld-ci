@@ -1,24 +1,23 @@
-&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot;
-xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
-xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0
-
-http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;
-&lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;
-&lt;groupId&gt;com.example&lt;/groupId&gt;
-&lt;artifactId&gt;java-helloworld-ci&lt;/artifactId&gt;
-&lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;
-&lt;name&gt;HelloWorld Maven App&lt;/name&gt;
-&lt;build&gt;
-&lt;plugins&gt;
-&lt;plugin&gt;
-&lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
-&lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;
-&lt;version&gt;3.8.1&lt;/version&gt;
-&lt;configuration&gt;
-&lt;source&gt;17&lt;/source&gt;
-&lt;target&gt;17&lt;/target&gt;
-&lt;/configuration&gt;
-&lt;/plugin&gt;
-&lt;/plugins&gt;
-&lt;/build&gt;
-&lt;/project&gt;
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>
+    <artifactId>java-helloworld-ci</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>HelloWorld Maven App</name>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
